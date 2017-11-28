@@ -1,0 +1,69 @@
+body{
+	background-image="background.png";
+}
+
+img{
+    margin: 30px 528px;
+    height: 50px;
+}
+h4{
+	    border: 1px dotted;
+    display: inherit;
+    margin: 4px 537px;
+    border-color: navy;
+    color: #B91A1A;
+    font-size: 21pt;
+    padding: 6px 13px;
+}
+p{
+	color:blue;
+	font-size: 14pt;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-shadow: 1px 1px black;
+}
+h3{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin:-70px 230px;
+    text-shadow: 2px 2px black;
+    font-size: 15pt;
+    background-color: #D01A1A;
+    float: right;
+    color: #D8D8D8;
+    padding: 3px 4px;
+    box-shadow: 5px 5px #881414;
+}
+.clear{
+	clear:both;
+}
+.ataturk p{
+font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: -10px 253px;
+    text-shadow: 2px 2px #000000;
+    font-size: 15pt;
+    float: right;
+    background-color: #881414;
+    color: #D8D8D8;
+    padding-right: 6px;
+    box-shadow: 3px 3px #151414;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	line-height: 3.5;
+	margin-top: -132px;
+    margin-left: 69px;
+}
+ul li a:hover{
+	background-color: darkseagreen;
+	padding: 20px 100px 20px 20px;
+	text-shadow:2px 2px #000;
+}
+#menu{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
