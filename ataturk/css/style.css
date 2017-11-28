@@ -1,0 +1,148 @@
+@charset "utf-8";
+body{font-family:"Roboto Condensed", sans-serif;
+}
+.ortala{
+	height: 100px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cerceve{
+	background-image: url(C:/Users/kvnco/Desktop/ataturk/img/arkaplan.jpg);
+	margin: -8px;
+    height: 820px;
+}
+.ustbolum .container ul{
+	list-style: none;
+	float: right;
+	margin-top: 5px;
+	margin-right:40px; 
+}
+.ustbolum .container ul li {
+	float: left;
+	margin-left: 10px;
+}
+.ustbolum .container ul li a {
+	text-decoration: none;
+font-size: 14px; 
+color:#a3aab4;
+}
+.ustbolum .container ul li a:hover{
+	color: #fff;
+	-webkit-transition: 0.7s;
+}
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.logo{
+	margin-left: 77px;
+	margin-top: 44px;
+}
+.menu .container ul{
+    margin-top: -50px;
+    margin-right: 122px;
+}
+.menu .container ul li{
+	margin-right: 15px;
+}
+.menu .container ul li a{
+	color: #fff;
+	font-size: 17px;
+	padding: 10px 0px;
+}
+.menu .container ul li a:hover{
+color: red;
+text-shadow: 2px 2px 2px #BE0B24;
+}
+.resim{
+	margin-top: 37px;
+    margin-left: 82px;
+}
+
+.icerikyazi a{
+	list-style: none;
+	text-decoration: none;
+    display: block;
+    margin-top: -75px;
+    margin-left: 110px;
+	font-size: 18pt;
+	color: #fff;
+	font-family: "Roboto Condensed", bold;
+}
+.icerikyazi a:hover{
+	color: red;
+}
+.Ziyaretcimenu ul{
+list-style: none;
+    float: right;
+    margin-top: -305px;
+    display: block;
+}
+.Ziyaretcimenu .icerik1{
+	margin-right: 500px;
+}
+.Ziyaretcimenu .icerik2{
+	margin-right: 250px;
+}
+.Ziyaretcimenu ul li{
+	margin-top: 8px;
+
+}
+.Ziyaretcimenu ul li a{
+		text-decoration: none;
+		color: #fff;
+ background-color: #19314d;
+    padding: 12px 20px;
+        width: 100%;
+        display: block;
+}
+.Ziyaretcimenu ul li a:hover{
+	background-color: #BE0B24;
+	-webkit-transition: 0.2s;
+}
+.haberler h2{
+	margin-top: 80px;
+	margin-left: -70px;
+	font-weight: 700;
+	font-size: 22px;
+	font-family: "Roboto Condensed",sans-serif;
+	color: #252525;
+}
+.haberler a{
+	font-size: 15px;
+	color: #00366a;
+	max-height: 33px;
+	overflow: hidden;
+	display: block;
+	text-decoration: none;
+	margin-top: -46px;
+    margin-left: -40px;
+}
+.haberler img{
+	height: 50px;
+	width:50px;
+	    margin-left: -108px;
+}
+.haberler li{
+	list-style: none;
+}
+.haberler a:hover{
+	color: #be0b24;
+}
+.duyurular h2{
+	margin-top: -95px;
+	margin-left: 300px;
+	font-weight: 700;
+	font-size: 22px;
+	font-family: "Roboto Condensed",sans-serif;
+	color: #252525;
+}
+.etkinlikler h2{
+	margin-top: -45px;
+	margin-left: 700px;
+	font-weight: 700;
+	font-size: 22px;
+	font-family: "Roboto Condensed",sans-serif;
+	color: #252525;
+}

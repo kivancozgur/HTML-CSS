@@ -1,0 +1,535 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+.icon-comment {
+    font-size: 15px;
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('roboto-light-webfont.woff2') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,500,700&subset=latin-ext');
+.face {
+    display: inline-block;
+    font-size: 16px;
+    color: #3A5795;
+    background: #fff;
+    padding: 10px
+}
+
+.face:hover {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background: #3A5795;
+}
+
+body {
+    font-size: 13px;
+    font-family: Palanquin;
+    margin: 0;
+}
+
+
+.box {
+    color: #fff;
+    padding: 10px;
+}
+
+.box:hover {
+    background: #fff;
+    color: #26425E;
+}
+
+.menu {
+    background: #fff;
+    border-bottom: 1px solid #CCC;
+}
+
+.menu-ul {
+    margin: 0 ;
+    padding: 0;
+}
+
+.menu-ul>a {
+    color: #000
+}
+
+.menu-ul>a:hover {
+    color: #FF5722;
+}
+
+.menu-li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 13px 10px 10px 10px;
+    border-bottom: 3px solid #fff;
+    font-size: 13pt;
+}
+.menu-ul>a{
+    padding-right: 20px;
+  font-family: 'Mukta Mahee 300', sans-serif;
+}
+.menu-li:hover {
+    border-bottom: 3px solid #FF5722;
+    transition-duration: 1.5s;
+}
+
+.bolum {
+    height: 53px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #BFBFBF;
+    color: #625A5A;
+    display: inline-block;
+    font-weight: bold;
+    padding:3px 9px 5px 9px; 
+    transition: all .3s;
+}
+
+.button:hover {
+    background-color: #6C7A89;
+    color: #DAE1E7;
+}
+
+.leftp {
+    padding: 10px;
+}
+
+.rightp {
+    padding: 10px;
+}
+
+.left {
+    width: 70%;
+    float: left;
+    background-color: #fff;
+}
+
+.right {
+    width: 30%;
+    float: left;
+}
+.resim {
+    background: url(../img/1.jpg);
+    height: 900px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    text-align: center;
+    color: #eaeae8;
+    font-weight: bold;
+    height: 400px;
+    padding-top:275px;
+}
+.text h1 {     font-size: 48pt;
+text-shadow: 4px 3px 6px black;
+    margin: 0;
+    padding-bottom: 25px;
+}
+.text h4{
+    margin: 0;
+    color: #fdfdfd;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 8px;
+    font-family: 'Mukta Mahee 300', sans-serif;
+    font-size: 12pt;
+}
+header {
+    position: fixed;
+    background: #222222;
+    padding: 5px;
+    width: 100%;
+    text-align: justify;
+    z-index: 5
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+.logo img {
+    height: 50px
+}
+
+h1 span{
+    color:#FF5722;
+}
+header>.container {}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1400px
+}
+
+.video {
+    font-family: 'Open Sans', sans-serif;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    opacity: .5
+}
+
+a {
+    color: #645D5A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6C7A89;
+    text-decoration: underline;
+}
+
+.column-25 {
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+.column-25 h4{
+    font-family: 'Mukta Mahee 300', sans-serif;
+    font-size: 12pt;
+}
+
+footer {
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 25px 0 25px 0;
+    background: #121212;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+h2.title {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 1
+}
+
+span {
+    display: inline-block;
+    position: relative;
+}
+
+.line:before,
+.line:after {
+    content: '';
+    color: #fff;
+    border: 1px solid;
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+    top: 9px;
+    width: 20px;
+}
+
+.line:before {
+    left: 100%;
+    margin-left: 10px;
+}
+.info{
+    
+}
+/*O T O B İ Y O G R A F İ M    BAŞLANGIÇ*/
+#hakkimizda{
+    margin-top: 70px;
+}
+.ust-resim img{
+    margin: 0 auto;
+    display: block;
+-webkit-box-shadow: 0px 0px 20px #333;
+box-shadow: 0px 0px 20px #333;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-center h4{
+
+    font-family: 'Mukta Mahee 300', sans-serif;
+    font-size: 42pt;
+    color: #484848;
+    text-align: center;
+    padding-bottom: 10px
+}
+.text-center p span{
+    font-family: 'Abel', sans-serif;
+    font-size: 20pt;
+    color: #fff;
+}
+.kisisel{
+font-family: 'Mukta Mahee 300', sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 16pt;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 0px auto;
+    padding-top: 7px;
+    margin: 0px auto;
+    line-height: 1.8;
+    background-color: rgb(222, 222, 222);
+    border-radius: 20px;
+}
+.pad60{
+    padding-top: 60px;
+}
+
+/*O T O B İ Y O G R A F İ M    BİTİŞ*/
+#calisma{
+    margin-top:50px;
+    padding-top: 110px;
+
+    padding-bottom: 110px;
+}
+#calisma p{
+    text-align: center;
+}
+#calisma span{
+    font-family: 'Mukta Mahee 300', sans-serif;
+    border-radius: 25px;
+    font-size: 19pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #d6d6d6;
+    margin-left: 50px;
+        text-align: center;
+}
+.table{
+    margin: 0 auto;
+padding-top: 10px;
+    margin-bottom: 20px;
+font-size: 16pt;
+    text-align: center;
+
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    padding: 19px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    color: #000;
+}
+    #iletisim{  
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #000;
+    font-family: 'Mukta Mahee 300', sans-serif;
+  }
+  #iletisim h3{
+    color:  #484848;
+padding-bottom: 10px;
+font-size: 42pt;
+  }
+
+
+.socialmedia{float: right;
+}
+.socialmedia ul{
+display: flex;
+position: absolute;
+margin-top: 5px;
+transform: translate(-120%,-150%);
+
+}
+.socialmedia ul li{
+list-style: none;
+
+}
+.socialmedia ul li a{
+width: 30px;
+height: 30px;
+background: #fff;
+font-size: 15px;
+text-align: center;
+margin: 0 10px;
+display: block;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+border:2px solid #fff;
+z-index: 1;
+}
+.socialmedia ul li a .fa{
+position: relative;
+color: #262626;
+    margin-top: 5px;
+transition: .5s;
+z-index: 3;
+}
+.socialmedia ul li a:hover .fa{
+transform: rotateY(360deg);
+color: #fff;
+}
+.socialmedia ul li a:before{
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+height: 100%;
+background: #f00;
+transition: .5s;
+}
+.socialmedia ul li a:hover:before{
+top: 0;
+}
+.socialmedia ul li:nth-child(1) a:before{
+background: #3b5999;
+}
+.socialmedia ul li:nth-child(2) a:before{
+background: #55acee;
+}
+.socialmedia ul li:nth-child(3) a:before{
+background: #e4405f;
+}
+.socialmedia ul li:nth-child(4) a:before{
+background: #dd4b39;
+}
+.socialmedia ul li:nth-child(5) a:before{
+background: #2c4762;
+}
+.socialmedia ul li:nth-child(6) a:before{
+background: #0177b5;
+}
+*{box-sizing: border-box;}
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+section{
+    width:100%;
+    padding: 1rem 0;
+}
+figure{
+    width: calc(100% / 4);
+    float: left;
+    position: relative;
+    margin-bottom: 1rem;
+}
+section::after,section::before{
+    content: "";
+    display: block;
+}
+section::after{
+    clear: both;
+}
+figure a{
+    display: block;
+    height: 100%;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+}
+figure img{
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+figcaption{
+    background: #de2a1b;
+    color: #fff;
+    border-bottom: 3px solid #333;
+    text-align: center;
+    padding: .7rem;
+    margin: 0 1rem;
+    font-size: 15px;
+    font-family: 'Mukta Mahee 300', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width:1024px){
+    html{
+        font-size: 14px;
+    }
+    figure{
+        width: calc(100% /3);
+    }
+}
+@media only screen and (max-width:840px){
+    html{
+        font-size: 12px;
+    }
+    figure{
+        width: calc(100% /3);
+    }
+}
+@media only screen and (max-width:640px){
+    html{
+        font-size: 11px;
+    }
+    figure{
+        width: calc(100% /2);
+    }
+}
+@media only screen and (max-width:400px){
+    html{font-size: 10.5px;}
+    figure{
+        width:100%;
+   }
+    
+}
+#becerilerim{
+    padding-top: 100px;
+}
+.bilgih1{
+    text-align: center;
+    font-family: 'Mukta Mahee 300', sans-serif;
+    font-size: 42pt;
+    color: #484848;
+    border-bottom: 1px solid #de2a1b;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.box-text{
+    text-align: left;
+    margin-top: -10px;
+    padding-top: 15px;
+    font-family: 'Mukta Mahee 300', sans-serif;
+    font-size: 18pt;
+    line-height: 2.3;
+   text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: -5px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(42, 52, 117, 0.55); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(42, 52, 117, 0.35);
+
+}
