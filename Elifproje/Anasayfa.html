@@ -1,0 +1,425 @@
+<html>
+<head>
+	  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/stil.css"/>
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Inconsolata&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<title>Nerede O Günler ?</title>
+</head>
+<body>
+<!--NAVBAR MENÜSÜ-->
+<header>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="container">
+          <div class="navbar-header">
+        <!--3 ÇİZGİ RESPONSİVE-->
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+           </div>
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#"onclick="kaydir('#anasayfa')">Anasayfa</a></li>
+        <li><a href="#" onclick="kaydir('#oyunlarimiz')">Oyunlarımız</a></li>
+      </ul>
+      <ul class="nav navbar-nav mobil">
+        <li><a href="#" onclick="kaydir('#oyuncaklarimiz')">Oyuncaklarımız</a></li> 
+        <li><a href="#" onclick="kaydir('#iletisim')">Ben Kimim?</a></li> 
+      </ul>
+</header>
+<div class="slider">
+    <style>
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+    </style>
+
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <div style="display: none;">
+                <img data-u="image" src="img/red.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/purple.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="img/blue.jpg" />
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:6px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:123px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:123px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        <a href="http://www.jssor.com" style="display:none">Jssor Slider</a>
+    </div>
+
+    </div>
+  <script type="text/javascript" src="js/jssor.slider-20.min.js"></script>
+      <script>
+        jssor_1_slider_init = function() {
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+
+    <!--SLİDER BİTİŞ -->
+
+<section id="oyunlarimiz">
+  <H1 class="oyunlarimizh1">OYUNLARIMIZ</H1>
+<div class="content pic zoom_img ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm6 col-xs-12 ">
+          <div class="box box1" data-sira="1">
+            <div class="box-img" style="min-height:197px;">
+              <div class="grow ">
+              <img src="img/saklambac.jpg" class="img-responsive ">
+            </div>
+            </div>
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Saklambaç</h4>
+                <p>Saklambaç en az iki kişiyle oynanır ancak kalabalık bir grupla oynandığında daha zevklidir. Öncelikle bir ebebelirlenir. Ebe duvara yasladığı ön kolu üzerine yüzünü ve gözünü kapatarak önceden belirlenen bir rakama kadar yüksek sesle sayar. Bu sırada diğer oyuncular saklanırlar. Ebe saymayı bitirince "Önüm, arkam, sağım, solum sobe; saklanmayan ebe!"diye bağırır ve diğer oyuncuları bulmaya çalışır. Diğer oyuncular ise ebenin korunaksız bıraktığı ebe duvarına "Sobe!"diye bağırarak dokunmaya çalışırlar. Dokunabilen kişiler sıradaki elde ebe olmaz. Ebe birini bulduğunda (gördüğünde) o kişinin adını yüksek sesle söyler ve o kişi ebelenmiş olur.
+Eğer ebe bir kişi görüp de onun adını yanlış telaffuz ederse diğer oyuncular saklandığı yerden çıkar ve "Çanak çömlek patladı!"diye bağırırlar. El iptal edilir ve ebe olan kişi yeniden ebe olur.</p>
+            </div>
+          </div>
+      
+      </div>
+      <div class="col-md-3 col-sm6 col-xs-12">
+          <div class="box box2"data-sira="2">
+            <div class="box-img" style="min-height:197px;">
+              <img src="img/seksek.jpg" class="img-responsive">
+            </div>
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Seksek</h4>
+                <p>Seksek tek başına ya da grup hâlinde oynanabilecek bir denge ve yetenek oyunudur. Oyun için yaklaşık el büyüklüğünde düz bir taş ve yere çizgi çizmek için tebeşirgerekir. Oyuncular seksek şemasını sert bir yüzeye (asfalt, kaldırım taşı vs.) çizdikten sonra sırasıyla taşlarını kutucukların içine atmaya çalışırlar. Eğer taş bir çizginin üzerinde durursa veya hedeflenen kutunun dışına çıkarsa sıra diğer oyuncuya geçer. Taş kutucuğun içine girdiği zaman o kutuya kadar tek ayak üzerinde sekilerek bölümler geçilir. Sekerek ilerleyen oyuncu çizgilere basarsa sıra yine diğer oyuncuya geçer.
+Oyunun daha zor varyantlarında seken oyuncu taşı yerdeki ayağıyla iterek sıradaki kutucuğa sokmaya çalışır.
+</p>
+            </div>
+          </div>
+      </div>
+            <div class="col-md-3 col-sm6 col-xs-12">
+          <div class="box box3" data-sira="3">
+            <div class="box-img" style="min-height:197px;">
+              <img src="img/birdirbir.jpg" class="img-responsive">
+            </div>
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Birdir bir</h4>
+                <p> Birdir Bir, oyunculardan bir kısmının eğildiği, diğerlerinin eğilenlerin üzerinden atladığı bir oyundur. Eğilen oyuncular genellikle ellerini dizlerine koyarak (rükûpozisyonunda) beklerler. Atlayıcılar, arkadan öne (kalçadan başa doğru) veya sırtın bir yanından diğer yanına olacak şekilde yanlamasına atlarlar. Özellikle daha büyük yaştaki gençlerin oynadığı versiyonlarda, eğilen oyuncular arka arkaya dizilerek daha uzun veya ellerini enselerine koyarak ve neredeyse ayakta dikilerek daha yüksek engeller oluşturabilirler. Birdirbir oynarken yaralanmaların önüne geçmek için mümkünse çimlikbir alan seçilmeli, oyun alanındaki taşlar temizlenmelidir. Kapalı mekanlarda oynarken düşüşü yumuşatacak minderler kullanılmalıdır. Eğilen oyuncular kafalarını iyice içeri çekerek muhafaza etmeli, atlayan oyuncular eğilenlerin kafasına tekme atmamak için azamî özen göstermelidir. Oyun alanı müsaitse ayakkabısız oynanabilir. Bazı yörelerde oyun esnasında atlarken aşağıdakine benzer tekerlemeler söylenir:
+Birdir bir 
+İkidir iki, [ebe olan kişinin adı] tilki 
+Üçtür üç, ebelik pek güç 
+Dörttür dört, kuş gibi öt 
+Beştir beş, aldım bir eş 
+Altıdır altı, yaptım kahvaltı 
+Yedim yedi, elim sırtına değdi 
+Sekizim seksek 
+Dokuzum durak </p>
+            </div>
+          </div>
+      </div>
+            <div class="col-md-3 col-sm6 col-xs-12">
+          <div class="box box4" data-sira="4">
+            <div class="box-img" style="min-height:197px;">
+              <img src="img/yagsatarim.jpg" class="img-responsive">
+            </div>
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Yağ Satarım Bal Satarım</h4>
+                <p>Yağ satarım bal satarım oyununda önce bir ebe belirlenir. Oyuncular yüzleri birbirine dönük, daire oluşturacak biçimde yere otururlar. Ebe bir mendilinucunu düğümleyerek eline alır. Bunu arkasında saklayarak oturan grubun çevresinde -genellikle sekerek- dolaşmaya başlar. Bu sırada da oyuna adını veren şarkıyı söyler:
+Yağ satarım, bal satarım 
+Ustam hasta/ölmüş ben satarım 
+Ustamın kürkü sarıdır 
+Satsam 15 liradır 
+Zambak zumbak 
+Dön arkana iyi bak 
+Oturanların etrafında (çemberin dışında) dolaşırken, mendili gizlice oyunculardan birinin arkasına (yere) bırakır. Arkasına mendil bırakılan oyuncu, bunun farkına vardığı anda mendili alarak ebeyi kovalamaya başlar. Ebe, yakalanmadan kalkan oyuncunun yerine oturursa, mendil kendisinde kalan oyuncu yeni ebe olur; yakalanırsa ebelik yapmaya devam eder</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="oyuncaklarimiz">
+  <h1 CLASS="oyuncaklarimizh1">OYUNCAKLARIMIZ</h1>
+<div class="content pic zoom_img ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm6 col-xs-12 ">
+          <div class="box box5" data-sira="5">
+            <div class="box-img" style="min-height:197px;">
+
+              <div class="grow ">
+              <img src="img/sanal.jpg" class="img-responsive ">
+            </div>
+            </div>
+            
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Sanal Bebek</h4>
+                <p>Sanal bebek avuç içi kadar bir aletin içinde bulunan canlının bizler tarafından sorumluluk alınarak büyütülmesi için dizayn edilmiş eğlenceli oyuncaktır. Oyuncak olmasına rağmen gencinin yaşlısının bu uğurda gönül vermiş olması enteresandır.90 lı yıllarda meşhur olmuştur. Okul yıllarında bu aletin heyacanı tüm okulları sarmıştır.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm6 col-xs-12">
+          <div class="box">
+            <div class="box-img" style="min-height:197px;">
+              <img src="img/tetris.jpg" class="img-responsive">
+            </div>
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Tetris Oyuncağı</h4>
+                <p>Tetris Oyuncağı bir zeka oyuncağıdır. 90'lı yılların gözde oyuncaklarındandır. Ekranda çıkanları nereye yerleştireceğine dikkat etmen gerekmektedir. Bunun için iyi bir strateji gerekiyor. En sonunda blokları yıkarken alınan haz hiçbir şeye değişilmezdir. </p>
+            </div>
+          </div>
+      </div>
+            <div class="col-md-3 col-sm6 col-xs-12">
+          <div class="box box7" data-sira="7">
+            <div class="box-img" style="min-height:197px;">
+              <img src="img/topac.jpg" class="img-responsive">
+            </div>
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Topaç</h4>
+                <p>Topacın ipi (kaytan) vardır. İşte bu kaytan kabaralı uçtan başlamak üzere topaca sıkıca sarılıyor. Kaytanın bir ucu ise sağ elin orta parmağına sıkıca bağlanmış durumda. Bu olmadığı takdirde ipin elden fırlaması, topacın da fırlamasına neden oluyor. Topacın eğer kaytan sarılacak bölümü varsa buraya sarılıyor. Sonra topaç sivri ucu yere doğru olmak üzere hızla yere fırlatılıyor ve bu arada kaytan geriye doğru çekiliyor. Bu çekme sırasında topaç dönme kazanıyor ve bunu yere çarpar çarpmaz sürdürüyor.</p>
+            </div>
+          </div>
+      </div>
+            <div class="col-md-3 col-sm6 col-xs-12">
+          <div class="box box8" data-sira="8">
+            <div class="box-img" style="min-height:197px;">
+              <img src="img/misket.jpg" class="img-responsive">
+            </div>
+            <div class="box-text" style="min-height:249px;">
+              <h4 style="min-height:64px;">Misket</h4>
+                <p>Usta misket oyuncusunun eli titremeyecek, keskin nişancı olacak, bir de pratik deneyi çok olacak. “Kafacı” denilen misketi atmak için işaret parmağı düz tutulan başparmağın ucuna doğru ve başparmaktan biraz yukarda olmak üzere bükülür. Parmağın bükülmesiyle oluşan boşluğa misket oturtulur. Oyuncu nişan alır ve başparmağını hızla ileri iterek misketi hedefe atar. Oyuncu, en iyi biçimde nişan alabilmek için çömelir, bir ya da iki dizi üzerine çökebilir. Ama misketi atarken eli ileri doğru hareket ettirmek kesinlikle yasaktır.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="iletisim">
+  <div class="container">
+</div>
+</section>
+<section id="hakkimizda">
+<div class="container">
+  <div class="row">
+    <div class="ust-resim">
+      <img src="img/profil.png" >
+    </div>
+  </div>
+</div>
+<div class="container">
+<div class="pad-60 text-center">
+  <h4>Merhabalar</h4>
+  <div class="yukari">
+  <p class="kisisel"> Merhaba ben Elif Özgür.
+            14 Ekim 1998 Bursa doğumluyum. Ailem 1992 yılında Bulgaristan'dan Bursa'ya göç etmiş. İlkokul hayatım İnönü İlköğretim Okulunda geçti. Atletizm sporuyla ilgilendim ve dereceler yaptım. Nilüfer Belediyesi'nden lisans aldım fakat SBS sınavına çalışmak için fazla zaman bulamadığımdan dolayı Atletizmi bırakmak zorunda kaldım. 2013 yılının Eylül ayında Osmangazi İMKB Mesleki ve Teknik Anadolu Lisesi'nin Bilişim bölümününe başladım. Okulda Web Tasarım ve Programlama dalında okuyorum. Photoshopu staj gördüğüm Artıiki şirketinde öğrendim. Aynı zamanda Prosem firmasındada Sunucu ile ilgili bilgiler öğrendim.
+        </div>
+</div>
+</div>
+  <div class="container-fluid">
+<table class="table">
+  <tbody>
+    <tr>
+      <td>Telefon</td>
+      <td>+90 (000) 000 00 00</td>
+    </tr>
+    <tr>
+      <td>Adres</td>
+      <td>Hamitler Mah. Osmangazi/BURSA</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</section>
+<footer>
+<div class="container">
+  <div class="row">
+      <div class="footer">
+          <a href="http://www.facebook.com/eozgur1"><img src="img/facebook.png"></a>       
+          <a href="http://www.twitter.com/eozgur13"><img src="img/twitter.png"></a> 
+          <a href="http://www.instagram.com/eliifozgurr"><img src="img/instagram.png"></a> 
+          <a href="https://plus.google.com/u/0/109129761497059811697"><img src="img/google.png"></a>
+          
+        </div>
+    </div>
+</div>
+</footer>
+<div id="wrapper">
+    <div class="scrollbar" id="style-1">
+      <div class="force-overflow"></div>
+    </div>
+
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+
+
+    function kaydir(nereye) {
+
+        $("html, body").delay(0).animate({
+            scrollTop: $(nereye).offset().top - 0
+        }, 500);
+
+    }
+
+jQuery("[data-animation]").each(function () {
+    var _t = jQuery(this);
+
+    if (jQuery(window).width() > 767) {
+
+        _t.appear(function () {
+
+            var delay = (_t.attr("data-animation-delay") ? _t.attr("data-animation-delay") : 1);
+
+            if (delay > 1)
+                _t.css("animation-delay", delay + "ms");
+            _t.addClass(_t.attr("data-animation"));
+
+            setTimeout(function () {
+                _t.addClass("animated");
+            }, delay);
+
+        }, {accX: 0, accY: -150});
+
+    } else {
+
+        _t.addClass("animation-visible");
+
+    }
+
+});
+
+
+        jssor_1_slider_init();
+/*
+        $('.devami').on('click', function(){
+
+          var durum = $(this).data('durum');
+          var id = $(this).attr('id');
+
+          if(durum == 0){
+
+            $('.box'+id).css('height', 'auto');
+            $(this).data('durum', '1');
+            $(this).html('Okudum');
+
+          }else{
+
+            $('.box'+id).css('height', '498px');
+            $(this).data('durum', '0');
+            $(this).html('Devamı');
+
+          }
+          
+
+        });
+*/
+        $( '.box' ).hover( function(){
+
+           /* üstüne geldiğinde*/
+          var id = $(this).attr('data-sira');
+
+            $('.box'+id).css('height', 'auto');
+
+        }, function(){
+
+          /*üstünden çıktığında*/
+          var id = $(this).attr('data-sira');
+
+            $('.box'+id).animate({height: "498px"}, 500);
+
+        } );
+
+
+
+    </script>
+</body>
+</html>

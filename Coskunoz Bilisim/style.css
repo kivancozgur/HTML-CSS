@@ -1,0 +1,29 @@
+body{background: linear-gradient(#8B4625,#906F5E,#601C09); font-family: 'Lora', serif;}
+	.slider{margin-top: -20px;-webkit-box-shadow: 2px 2px 25px 2px #601C09;
+	box-shadow: 2px 2px 25px 2px #601C09;}
+/*NAVBAR MENÜSÜ*/
+.navbar-inverse {background: linear-gradient(#775847,#906F5E,#775847);;border-color: #601C09;font-size: 12.5pt;text-shadow:0.3px 0.3px #222222;}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus {color: #441111;border-bottom: 3px solid #601C09;background-color: transparent;}
+.navbar-inverse .navbar-brand {color: #233673;font-size: 17pt;}
+.navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus {color: #233673;background-color: transparent;}
+.navbar-inverse .navbar-nav > li > a {color: #600909;}
+.dropdown-menu {position: absolute;top: 100%;left: 0;z-index: 1000;display: none;float: left;min-width: 160px;padding: 5px 0;margin: 2px 0 0;font-size: 14px;text-align: left;list-style: none;background-color: #601C09;-webkit-background-clip: padding-box;background-clip: padding-box;border: 1px solid #ccc;border: 1px solid rgba(0, 0, 0, .15);border-radius: 4px;-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);box-shadow: 0 6px 12px rgba(0, 0, 0, .175);}
+.aktif{color: #ffffff;background-color: #906F5E;}
+.dropdown-menu .divider {height: 1px;margin: 9px 0;overflow: hidden;background-color: #601C09;}
+.dropdown-menu > li > a {font-family: "Indie Flower",sans-serif;text-shadow:2px 2px black;font-size: 14pt;display: block;padding: 3px 20px;clear: both;font-weight: normal;line-height: 1.42857143;color: #ffffff;white-space: nowrap;}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {color: #9D9D9D;text-decoration: none;background-color: #601C09;}
+.navbar-inverse .navbar-nav > .open > a,.navbar-inverse .navbar-nav > .open > a:hover,.navbar-inverse .navbar-nav > .open > a:focus {color: #fff;background-color: #6B4E3E;}
+.navbar-inverse .navbar-toggle {border-color: #600909;}
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {background-color: #600909;}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {border-color: #600909;}
+/*NAVBAR MENÜSÜ*/
+.box{overflow: hidden;-webkit-box-shadow: 2px 2px 9px 3px #101010;box-shadow: 2px 2px 9px 3px #101010;margin-top: 19px;background-color: rgba(0, 0, 0, 0.36);}
+.content a{text-decoration: none;}
+.box-text{color: rgb(241, 187, 129);background-color:rgba(34, 34, 34, 0.73);padding-bottom: 1px;padding-top: 1px;text-align: center;}
+.box:hover{-webkit-box-shadow: 2px 3px 9px 2px #902020;box-shadow: 2px 3px 9px 2px #902020;background-color: transparent;}
+.zoom_img img{margin:0 auto;height:250px;width:900px;-moz-transition:-moz-transform 0.2s ease-in; -webkit-transition:-webkit-transform 0.2s ease-in; -o-transition:-o-transform 0.2s ease-in;}
+.zoom_img img:hover{-moz-transform:scale(5); -webkit-transform:scale(1.07);-o-transform:scale(2);}
+.footer{font-family: "Amarante",sans-serif;color: #600909; margin-top: 15px;background-color: #9F7754;}
+.footer ul{-webkit-box-shadow: 1px 1px 7px 5px rgba(34, 34, 34,1);box-shadow: 1px 1px 7px 5px rgba(34, 34, 34,1);}
+.footer ul li{list-style: none;float: left;padding: 19px 19px 19px 80px;}

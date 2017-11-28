@@ -1,0 +1,65 @@
+body{
+	background: radial-gradient(circle farthest-side, #324759,#00060D)
+}
+
+/*NAVBAR MENÜSÜ*/
+.navbar-inverse {background: linear-gradient(#775847,#906F5E,#775847);;border-color: #601C09;font-size: 12.5pt;text-shadow:0.3px 0.3px #222222;}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus {color: #441111;border-bottom: 3px solid #601C09;background-color: transparent;}
+.navbar-inverse .navbar-brand {color: #233673;font-size: 17pt;}
+.navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus {color: #233673;background-color: transparent;}
+.navbar-inverse .navbar-nav > li > a {color: #600909;}
+.dropdown-menu {position: absolute;top: 100%;left: 0;z-index: 1000;display: none;float: left;min-width: 160px;padding: 5px 0;margin: 2px 0 0;font-size: 14px;text-align: left;list-style: none;background-color: #601C09;-webkit-background-clip: padding-box;background-clip: padding-box;border: 1px solid #ccc;border: 1px solid rgba(0, 0, 0, .15);border-radius: 4px;-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);box-shadow: 0 6px 12px rgba(0, 0, 0, .175);}
+.aktif{color: #ffffff;background-color: #906F5E;}
+.dropdown-menu .divider {height: 1px;margin: 9px 0;overflow: hidden;background-color: #601C09;}
+.dropdown-menu > li > a {font-family: "Indie Flower",sans-serif;text-shadow:2px 2px black;font-size: 14pt;display: block;padding: 3px 20px;clear: both;font-weight: normal;line-height: 1.42857143;color: #ffffff;white-space: nowrap;}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {color: #9D9D9D;text-decoration: none;background-color: #601C09;}
+.navbar-inverse .navbar-nav > .open > a,.navbar-inverse .navbar-nav > .open > a:hover,.navbar-inverse .navbar-nav > .open > a:focus {color: #fff;background-color: #6B4E3E;}
+.navbar-inverse .navbar-toggle {border-color: #600909;}
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {background-color: #600909;}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {border-color: #600909;}
+/*NAVBAR MENÜSÜ*/
+.komple{
+	padding: 50px 315px;
+	margin-top: 120px;
+}
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 15pt;
+  font-weight: normal;
+  line-height: 1;
+  color: black;
+  text-align: center;
+  background-color: #bbb;
+  border: 1px solid #bbb;
+  border-radius: 50px;
+  font-family: 'Inconsolata';
+}
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  background-color: #eee;
+    border-radius: 50px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  margin-bottom: 2px;
+  font-family: 'Inconsolata';
+}
+.btn-group > .btn:first-child {
+  margin-left: 500px;
+  padding: 10px 10px;
+  margin-left: 315px;
+    padding: 12px 211px;
+    margin-top: -50px;
+    color: #00060D;
+      font-family: 'Inconsolata';
+      font-size: 15pt;
+      background-color: #888;
+      border-radius: 50px;
+}

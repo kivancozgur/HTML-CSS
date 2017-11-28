@@ -1,0 +1,22 @@
+body{background-image: url(iletisimbg.jpg);color: white;cursor:default;font-family: 'Lora', serif;}
+.baslik{margin-left: 467px;margin-bottom: -1px;padding:24px 63px 24px 63px;-webkit-box-shadow:inset 2px 2px 50px 1px #57C1FF;box-shadow:inset 2px 2px 150px 1px #57C1FF;font-family:"Indie Flower",sans-serif;text-align: center;font-size: 29pt;text-shadow: 2px 2px 2px #000000;}
+.adres1{font-size: 16pt;text-shadow: 2px 2px 2px #000000;padding: 16px;-webkit-box-shadow:inset 2px 2px 50px 1px #12FF98;box-shadow:inset 2px 2px 100px 1px #12FF98;text-align: center;font-family:"Indie Flower",sans-serif;}
+.tel1{font-size: 16pt;text-shadow: 2px 2px 2px #000000;padding: 16px;-webkit-box-shadow:inset 2px 2px 50px 1px #FF0000;box-shadow:inset 2px 2px 100px 1px #FF0000;text-align: center;font-family:"Indie Flower",sans-serif}
+.faks1{font-size: 16pt;text-shadow: 2px 2px 2px #000000;padding: 16px;-webkit-box-shadow:inset 2px 2px 50px 1px #12FF98;
+box-shadow:inset 2px 2px 100px 1px #12FF98;text-align: center;font-family:"Indie Flower",sans-serif;}
+.mail1{font-size: 16pt;text-shadow: 2px 2px 2px #000000;padding: 16px;-webkit-box-shadow:inset 2px 2px 50px 1px #FF0000;box-shadow:inset 2px 2px 100px 1px #FF0000;text-align: center;font-family:"Indie Flower",sans-serif;}
+.navbar-inverse {background: linear-gradient(#775847,#906F5E,#775847);border-color: #601C09;font-size: 12.5pt;text-shadow:0.3px 0.3px #222222;}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus {color: #441111;border-bottom: 3px solid #601C09;background-color: transparent;}
+.navbar-inverse .navbar-brand {color: #233673;font-size: 17pt;}
+.navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus {color: #233673;background-color: transparent;}
+.navbar-inverse .navbar-nav > li > a {color: #600909;}
+.dropdown-menu {position: absolute;top: 100%;left: 0;z-index: 1000;display: none;float: left;min-width: 160px;padding: 5px 0;margin: 2px 0 0;font-size: 14px;text-align: left;list-style: none;background-color: #601C09;-webkit-background-clip: padding-box;background-clip: padding-box;border: 1px solid #ccc;border: 1px solid rgba(0, 0, 0, .15);border-radius: 4px;-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);box-shadow: 0 6px 12px rgba(0, 0, 0, .175);}
+.dropdown-menu .divider {height: 1px;margin: 9px 0;overflow: hidden;background-color: #601C09;}
+.dropdown-menu > li > a {font-family: "Indie Flower",sans-serif;text-shadow:2px 2px black;font-size: 14pt;display: block;padding: 3px 20px;clear: both;font-weight: normal;line-height: 1.42857143;color: #ffffff;white-space: nowrap;}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {color: #9D9D9D;text-decoration: none;background-color: #601C09;}
+.navbar-inverse .navbar-nav > .open > a,.navbar-inverse .navbar-nav > .open > a:hover,.navbar-inverse .navbar-nav > .open > a:focus {color: #fff;background-color: #6B4E3E;}
+.aktif{color: #ffffff;background-color: transparent;}
+.navbar-inverse .navbar-toggle {border-color: #600909;}
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {background-color: #600909;}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {border-color: #600909;}

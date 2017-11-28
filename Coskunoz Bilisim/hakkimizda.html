@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hakkımızda</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="dizayn.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--NAVBAR MENÜSÜ-->
+<header>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="container">
+          <div class="navbar-header">
+         <a class="navbar-brand" href="#">Coşkunöz</a>
+        <!--3 ÇİZGİ RESPONSİVE-->
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+           </div>
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="aktive"><a href="index.html">Anasayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bölümler<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="bilisim.html">Bilisim Teknolojileri</a></li>
+            <li><a href="elektrik.html">Elektrik-Elektronik Teknolojileri</a></li>
+            <li><a href="biyomedikal.html">Biyomedikal Cihazlar Teknolojileri</a></li> 
+            <li><a href="makine.html">Makine Teknolojisi</a></li> 
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Biz Kimiz?
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="kivancozgur.html">Kıvanç Özgür</a></li>
+            <li><a href="burakeven.html">Burak Even</a></li>
+            <li><a href="egepancaroglu.html">Ege Pancaroglu</a></li>  
+          </ul>
+        </li>
+        <li><a href="iletisim.html">İletişim</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="kayit.html"><span class="glyphicon glyphicon-user"></span> Kayıt Ol</a></li>
+        <li><a href="giris.html"><span class="glyphicon glyphicon-log-in"></span> Giriş Yap</a></li>
+      </ul>
+    </div>
+</nav>
+</header>
+<!--NAVBAR MENÜSÜ-->
+	</div>
+    <div id="Renkli_yazi">
+<script>
+
+
+var text="<font size=5><b>Mehmet Kemal Coskunoz Anadolu Teknik ve Endustri Meslek Lisesi</b></font>" // Yazı // WebKodu.com
+var speed=80 // Hız // WebKodu.com
+
+
+
+
+if (document.all||document.getElementById){
+document.write('<span id="highlight">' + text + '</span>')
+var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
+}
+else
+document.write(text)
+var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
+var r=1
+var g=1
+var b=1
+var seq=1
+function changetext(){
+rainbow="#"+hex[r]+hex[g]+hex[b]
+storetext.style.color=rainbow
+}
+function change(){
+if (seq==6){
+b--
+if (b==0)
+seq=1
+}
+if (seq==5){
+r++
+if (r==12)
+seq=6
+}
+if (seq==4){
+g--
+if (g==0)
+seq=5
+}
+if (seq==3){
+b++
+if (b==12)
+seq=4
+}
+if (seq==2){
+r--
+if (r==0)
+seq=3
+}
+if (seq==1){
+g++
+if (g==12)
+seq=2
+}
+changetext()
+}
+function starteffect(){
+if (document.all||document.getElementById)
+flash=setInterval("change()",speed)
+}
+starteffect()
+</script>
+</div>
+
+	<div id="Bolumler">
+        <div class="container">
+        <h4>Bir amaç ve çaba doğrultusunda belirlediğimiz ve ilerlediğimiz hedef uğruna okulumuz için bu siteyi tasarladık.Bizler 11-A sınıfı öğrencileri olarak okulumuzun yükselmesine tanıklık edecek ilk elden insanlarız.Neden mi ?,çünkü biz öğretmenlerimizi seviyoruz,neden mi ?,çünkü biz arkadaşlarımızı seviyoruz,neden mi ?,çünkü biz OKULUMUZU seviyoruz.Bu sitenin asıl amacı hedefi olan öğrencilerin bir arada bir topluluk oluşturarak birlik ve destek içerisinde başarıyı yakalamada ki prensipleridir.Sitenin tasarımı dört koldan yapılmıştır bunlar,Kıvanç Özgür,Burak Even,Ege Pancaroğlu ve Ömer Faruk Öz'dür.Bir insan vücudunu oluşturan temek varlıklar ne ise bizlerde bir bütünün parçasıyız ve bu parçaya hizmet ediyoruz.</h4>
+    </div>
+		<div id="Footer">
+          <footer>
+<div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="footer row">
+       <ul>
+          <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> İhsaniye Mh., Ahmet Vefik Paşa Cad. No:17, 16130 Nilüfer/Bursa</li>    
+          <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> burak.even@hotmail.com</li>
+          <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>0000-000-00-00</li>
+        </ul>
+        </div>
+    </div>
+  </div>
+</div>
+</footer>
+		</div>
+	</div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

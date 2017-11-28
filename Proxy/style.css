@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*CSS Document */
+body{
+	margin: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#ffffff;
+	line-height: 140%;
+	background-color: #00000E;
+}
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	color: #ffffff;
+}
+#search{
+	background-color: #00022E;
+	border-bottom: solid 10px #00B3E9;
+}
+#search_inner{
+	width: 210px;
+	margin: 0px auto;
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 750px;
+	height: 32px;
+}
+#header{
+	background-color: #232323;
+}
+#header_inner{
+	width: 960px;
+	margin: 0px auto;
+}
+#page{
+	width: 960px;
+	margin:0px auto;
+}
+#slider{
+	background-color: #00B3E9;
+}
+#content{
+	background-color: #00022E;
+	padding: 50px 0px;
+}
+#foot_menu {
+	background-color: #00041D;
+	border-bottom: solid 10px #00041D;
+}
+#foot_menu_header{
+	position: relative;
+	background-image: url(images/foot_menu_shadow.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 100px;
+	margin-top: 20px;
+	color: #333333;
+}
+
+#foot_menu_header h1{
+	margin-left: 20px;
+}
+#footer{
+	text-align: right;
+	font-size: 11px;
+}
+
+#footer img{
+	margin-top: -80px;
+	margin-right: 230px;
+}
+.form_search{
+	background-image:url(images/search.png);
+	background-repeat: no-repeat;
+	width: 152px;
+	height: 22px;
+	display: block;
+	padding: 5px 10px;
+	border: none;
+	float: left;
+
+}
+.btn_search{
+	background-image:url(images/search.png);
+	background-repeat: no-repeat;
+	background-position: -172px 0px;
+	width: 34px;
+	height: 32px;
+	border: none;
+	float: left;
+	text-indent: 1000px;
+	overflow: hidden;
+}
+ul.menu{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: right;
+}
+ul.menu li{
+	float: left;
+}
+ul.menu li a{
+	display: block;
+	padding: 77px 10px 20px 10px;
+	color:#FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+ul.menu li a:hover{
+	background-color: #00B3E9;
+}
+ul.menu li a.active{
+	background-color: #00B3E9;
+}
+.content_box{
+	float: left;
+	width: 190px;
+	margin-left: 40px;
+	color: #ffffff;
+}
+.content_box .rakam {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 50px;
+	background-color: #1B7BA1;
+	font-style: italic;
+	line-height: 50px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: normal;
+}
+.content_box h2{
+	float: left;
+	width: 110px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.content_box img{
+	margin: 10px 0px;
+	border: solid 3px #999999;
+}
+.content_box p{
+	font-size: 12px;
+	color: #999999;
+}
+.clear {
+	clear: both;
+}
+.margintop25{
+	margin-top: 25px;
+}
+.w250{
+	width: 250px;
+}
+.w230{
+	width: 230px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.margintop5{
+	margin-top: 5px;
+}
