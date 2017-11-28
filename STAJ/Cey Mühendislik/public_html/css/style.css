@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27.Tem.2015, 10:47:32
+    Author     : Kamil
+*/
+
+.footer1{
+    line-height: 25px;
+    font-size:13px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e37625;
+}
+
+.ustmenu1{
+    font-weight: bold;
+    float:left;
+    height:25px;    
+    color:white;
+}
+
+.ulust{
+    padding:0;
+}
+
+.socialfa{
+    list-style: none;
+    text-decoration: none;
+    float:right;
+    height:25px;    
+    color:white;
+}
+.socialfa li{
+    list-style: none;
+    text-decoration: none;
+    float:left;
+    height:25px;    
+    color:white;
+}
+.socialfa i{
+    padding-right:10px;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
+
+.socialfa i:hover{
+
+    padding-right:10px;
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+
+.ustmenu1-1 li{
+    padding-right: 15px;
+    color:white;
+    float:left;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ustmenu1-1 a{
+    color:white;
+    float:left;
+    text-decoration: none;}
+
+.ustmenu1-1 a:hover{
+    color:black;
+    font-weight: bold;
+    float:left;
+    text-decoration: none;
+}
+
+.icerik{
+    background-image:url(1.jpg); 
+    background-position:center; 
+    height:700px; 
+    width:100%; 
+    z-index:999;  
+}
+
+.menubar{
+    margin-top:35px;
+    font-family: 'Roboto', sans-serif;
+    padding:10px 0px;
+    height:110px;
+    width:100%;
+    background-color:rgba(62, 71, 83, 0.91);
+    box-shadow: 0px 0px 10px 0px #e37625;
+}
+
+.logo{
+    border-right: 6px solid #0887b1;
+    border-left: 6px solid #0887b1;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 30px;
+    float:left;
+}
+.menubar li{
+    margin-top:35px;
+}
+
+.menubar a{
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+
+.menubar a:hover{
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 1px #e37625;
+}

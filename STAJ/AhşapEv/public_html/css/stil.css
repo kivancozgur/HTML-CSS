@@ -1,0 +1,19 @@
+.menu{
+    float:right;
+    margin-top: 20px;
+}
+
+.menuarkaplan{
+    background-image: url(img/buton.jpg);
+    background-repeat:repeat-x;
+}
+
+.menubosluk{
+
+    padding:10px;
+}
+.menusag li{
+    
+    
+    float:right;
+}

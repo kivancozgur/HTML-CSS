@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.Tem.2015, 14:43:06
+    Author     : Kamil
+*/
+
+.header{
+    height:100px;
+    background:url(bulutbgx.jpg) 58% 25%;
+    border-bottom:5px solid red;
+}
+
+.menu {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top:40px;
+    padding-bottom:20px;
+    padding-right:5px;
+    float:right;
+}
+.menu li{
+    
+    padding-right:10px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    float:right;
+}
+.menu li a:hover{
+    color:red;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    float:right;
+}
+.menu li a{
+    color:black;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    float:right;
+}
+.active{
+    border-bottom:5px solid red;
+}
+
+.slogan{
+    font-size: 19px;
+    line-height: 16px;
+    color: #fff;
+    padding-left: 32px;
+    margin-top: -130px;
+    position: relative;
+    z-index: 8999;
+}
+.logo{
+      position: relative;
+        margin-top: 0px;
+        z-index: 88;
+}
+
+.ic{
+    position: relative;
+    background:url(banner-1.jpg);
+    border-bottom:5px solid red;
+    
+}
+
+.sol{
+    width:520px;
+    float:left; 
+    margin:20px;
+    position: relative;
+    z-index: 9999;
+    color: #fff;
+    padding:20px;
+    border-radius: 4px;
+    border:1px solid rgba(197, 178, 155, 0.53);
+    background:rgba(22, 72, 121, 1);
+}
+.sol2{
+    width: 491px;
+    float:left;
+    margin:20px;
+    position: relative;
+    z-index: 9999;
+    color: #fff;
+    padding:20px;
+    border-radius: 4px;
+    border:1px solid rgba(197, 178, 155, 0.53);
+    background:rgba(208, 23, 36, 0.97);
+}
+
+.orta{
+    border-bottom: 5px red solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    background: rgba(245, 244, 245, 0.52);
+    }
+    
+    .box{
+        margin-top:15px;
+        margin-right: 23px;
+        width:165px;
+        height:auto;
+        background:white;
+        border:1px #3c3c3c solid;
+    }
+    
+    .boxx{
+        
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+        font-size:18px;
+        padding-top:5px;
+        margin-bottom: 15px;
+        width:130px !important;
+        height:35px;
+        background:red;
+        color:white;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    .boxx:hover{
+        
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+        font-size:18px;
+        padding-top:5px;
+        margin-bottom: 15px;
+        width:130px !important;
+        height:35px;
+        background:black;
+        color:white;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .box img{
+        width:100%;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    }
+    .box img:hover{
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+
+    }
+    .alt{
+        margin:15px 0px;
+    }
+    .altborder
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+        border-bottom: 3px #dbdbdb solid;
+    }
+    
+    .a{
+        color:black;
+    }

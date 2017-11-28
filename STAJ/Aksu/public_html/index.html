@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .elli{
+            float:left;
+            width:200px;
+            height:50px;
+            padding:10px;
+            color:gainsboro;
+            
+        }
+        .footer{
+            margin-top:12px;
+            margin-left:auto;
+            margin-right:auto;
+            width: 960px;
+            height:auto;
+            display: table;
+            padding-bottom: 12px;
+        }
+        .arka{
+            background-color: rgba(0, 0, 0, 0.58);
+            margin-left:auto;
+            margin-right:auto;
+            width: 960px;
+            height:auto;
+            display: table;
+            padding-bottom: 12px;
+        }
+        .arkaa{
+            margin-top:30px;
+            background-color: rgba(0, 0, 0, 0.69);
+            margin-left:auto;
+            margin-right:auto;
+            width: 960px;
+            height:150px;
+            display: table;
+            padding-bottom: 12px;
+        }
+        .header{
+            padding:0px 15px;
+        }
+        .menu{
+            display:block;
+            float:left;
+            margin-top:30px;
+            width:400px;
+        }
+        .menu ul li{
+            padding-right: 10px;
+            float:left;
+            text-decoration: none;
+            list-style: none;
+            color:white;
+        }
+        .logo{
+            float:left;
+            display:block;
+        }
+
+        .search{
+            padding-top:20px;
+            float:left;
+            width:275px;
+            height:89px
+        }
+        .cizgi{
+            height:4px;
+            width:100%;
+            background:url(cizgi.png);
+        }
+        .altmenu{
+            float:left;
+        }
+        .altmenu ul {
+            text-decoration: none;
+            list-style: none;
+            margin-top:0px;
+            padding-left:0px;
+        }
+        .altmenu ul li{
+            list-style: none;
+            float: left;
+            width: 96px;
+            text-align: center;
+            height: 49px;
+        }
+
+
+        .altmenu ul a{
+            text-decoration: none;
+            list-style: none;
+            color:white;
+
+        }
+        .kirmizi{
+            float:left;
+
+            background:url(renk/kirmizi.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .turuncu{
+            float:left;
+            background:url(renk/turuncu.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .aturuncu{
+            float:left;
+            background:url(renk/aturuncu.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .aaturuncu{
+            float:left;
+            background:url(renk/aaturuncu.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .sari{
+            float:left;
+            background:url(renk/sari.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .ksari{
+            float:left;
+            background:url(renk/ksari.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .yesil{
+            float:left;
+            background:url(renk/yesil.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .kyesil{
+            float:left;
+            background:url(renk/kyesil.png) repeat-x;;
+            background-size: cover;
+            padding:10px;
+        }
+        .slider{
+            margin-left: auto;
+            margin-right: auto;
+            width:926px;
+        }
+        .altbar{
+            width:100%;
+            margin-right:auto;
+            margin-left:auto;
+            background-image:url(alt-bar.png) ;
+            height:10px;
+            margin-top:0px;
+            padding-right:0px;
+            padding-left:0px;
+        }
+        .row-fluid{
+            padding:0px 15px;
+        }
+        .row-fluids{
+            margin-top:20px;
+            padding:0px 15px;
+        }
+        .box{
+            border: 1px solid #8d694e;
+            border-right: none;
+            border-right-width: initial;
+            border-right-style: none;
+            border-right-color: initial;
+            width: 230px;
+            float: left;
+            height: 315px;
+        }
+        .boxs{
+            border: 1px solid #8d694e;
+
+            width: 230px;
+            float: left;
+            height: 315px;
+        }
+        .yaziortala{
+            text-align: center;
+            color:blanchedalmond;
+            font-weight: bold;
+        }
+        .solbar{
+            margin-top:20px;
+            border-right: 1px solid #F7DBB0;
+            font-family: sans-serif;
+            font-size: 18px;
+            float:left;
+            width:458px;
+        }
+        .solbar li{
+            text-decoration: none;
+            list-style: none;
+            font-weight: bold;
+            line-height: 28px;
+                
+        }
+        .solbar li a{
+            color:#F7DBB0;
+            text-decoration: none;
+            list-style: none;
+            font-weight: bold;
+            line-height: 28px;
+                
+        }
+        .solbar li img{
+            position: relative;
+            left: 0px;
+            top: 7px;
+            color:#F7DBB0;
+            text-decoration: none;
+            list-style: none;
+            font-weight: bold;
+            line-height: 28px;
+                
+        }
+        .sg {
+            border-right: 1px solid #F7DBB0;
+            margin-left:20px;
+            margin-right:20px;
+            margin-top:20px;
+            float:left;
+            width:165px;
+            text-align: center;
+            color:#F7DBB0;
+            font-weight: bold;
+            height: 297px;
+            padding-right: 20px;
+            
+        }
+        .sghaber i{
+            
+            border-bottom: 1px solid #F7DBB0;
+            
+            margin-top:20px;
+            float:left;
+            width:165px;
+            text-align: center;
+            color:#F7DBB0;
+            font-weight: bold;
+            padding-right: 20px;
+            
+        }
+        .sghaber p{            
+            margin-top:20px;
+            float:left;
+            width:165px;
+            color:#F7DBB0;
+            padding-right: 20px;
+            
+        }
+        .sghaber{
+            margin-left:20px;
+            margin-right:20px;
+            float:left;
+            width:165px;
+            color:#F7DBB0;
+            font-weight: bold;
+             }
+        .sg i{
+            border-bottom:1px solid #F7DBB0;
+            text-align: center;
+            color:#F7DBB0;
+            font-weight: bold;
+            
+        }
+        
+        .altk{
+            float:left;
+            background:url(alt-k.png);
+            height: 69px;  
+            width: 320px;
+        }
+       
+        .altk p{
+        font-size: 19px;  
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0px;
+        color: #fff;
+        }
+        .altk span{
+        font-size:15px;
+        text-align: center;
+        color: #fff;
+        }
+        .altt{
+            float:left;
+            background:url(alt-t.png);
+            height: 69px;  
+            width: 320px;
+        }
+       
+        .altt p{
+        font-size: 19px;  
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0px;
+        color: #fff;
+        }
+        .altt span{
+        font-size:15px;
+        text-align: center;
+        color: #fff;
+        }
+        .alty{
+            float:left;
+            background:url(alt-y.png);
+            height: 69px;  
+            width: 320px;
+        }
+       
+        .alty p{
+        font-size: 19px;  
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0px;
+        color: #fff;
+        }
+        .alty span{
+        font-size:15px;
+        text-align: center;
+        color: #fff;
+        }
+    </style>
+</head>
+<body style="font-family:sans-serif; background:url(bg.jpg) repeat scroll center top #D9D9D9; background-size: 100%;   overflow-x: hidden;">
+
+<div class="arka">
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt=""/>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    Anasayfa
+                </li>
+
+                <li>
+                    Hakkımızda
+                </li>
+                <li>
+                    Tarifler
+                </li>
+
+                <li>
+                    İletişim
+                </li>
+            </ul>
+        </div>
+        <div class="search">
+            <img src="pdf.png" alt=""/>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="cizgi">
+
+        </div>
+        <div class="altmenu">
+            <ul>
+                <li class="kirmizi">
+                    <a href="#">Çorbalar</a>
+                </li>
+                <li class="turuncu">
+                    <a href="#">Etli Yemekler</a>
+                </li>
+                <li class="aturuncu">
+                    <a href="#">Pilavlar</a>
+                </li>
+                <li class="aaturuncu">
+                    <a href="#">Tatlılar</a>
+                </li>
+                <li class="sari">
+                    <a href="#">Hamur İşleri</a>
+                </li>
+                <li class="ksari">
+                    <a href="#">Tuzlu Tatlılar</a>
+                </li>
+                <li class="yesil">
+                    <a href="#">Salatalar</a>
+                </li>
+                <li class="kyesil">
+                    <a href="#">İçecekler</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="slider">
+        <img class="slider" src="../../../banner1.jpg" alt="banner"/>
+    </div>
+    <div class="altbar">
+
+    </div>
+    <div class="row-fluid">
+        <h4 style="color:#f5f5ff;">En Çok Ziyaret Edilenler?</h4>
+    </div>
+    <div class="row-fluid yaziortala">
+        
+        <div class="box">
+            <img src="../../../urun.jpg" alt="" width="200" height="200"/>
+            Domates Çorbası <img src="ok.png" alt=""/> <br/>
+            
+            Tarifi için tıkla..
+        </div>
+        <div class="box">
+            <img src="urun.png" alt=""/>
+            KARABİBER <img src="ok.png" alt=""/> <br/>
+            
+            150 gr. ve 400 gr.’lık paketlerde...
+        </div>
+        <div class="box">
+            <img src="urun.png" alt=""/>
+            KARABİBER <img style="position:relative; left:40px; top:4px;" src="ok.png" alt=""/> <br/>
+            
+            150 gr. ve 400 gr.’lık paketlerde...
+        </div>
+        <div class="boxs">
+            <img src="urun.png" alt=""/>
+            KARABİBER <img src="ok.png" alt=""/> <br/>
+            
+            150 gr. ve 400 gr.’lık paketlerde...
+        </div>
+        
+    </div>
+    <div class="row-fluids">
+        <div class="solbar">
+            <ul style="margin-top:45px; padding-left:0px;">
+                <li>
+                    <img src="ok.png" alt=""/><a>Baharatın Tarihi</a>
+                </li>
+                <li>
+                    <img src="ok.png" alt=""/><a>Baharatın Tarihi</a>
+                </li>
+                <li>
+                    <img src="ok.png" alt=""/><a>Baharatın Tarihi</a>
+                </li>
+                <li>
+                    <img src="ok.png" alt=""/><a>Baharatın Tarihi</a>
+                </li>
+                <li>
+                    <img src="ok.png" alt=""/><a>Baharatın Tarihi</a>
+                </li>
+                <li>
+                    <img src="ok.png" alt=""/><a>Baharatın Tarihi</a>
+                </li>
+                
+                
+            </ul>
+        </div>
+        <div class="sg">
+            <i>Son Gösterilenler</i>
+            <br><img  src="urun.png" alt=""/>
+        </div>
+        <div class="sghaber">
+            <i>Aksu'dan Haberler</i>
+            <p>Aksu'dan Yeni Çeşitleri</p><span style="font-size:10px;">
+Lorem psumLorem psumLorem psumLorem psumLorem psumLorem psumLorem psum</span>
+            <p>Aksu'dan Yeni Çeşitleri</p><span style="font-size:10px;">
+Lorem psumLorem psumLorem psumLorem psumLorem psumLorem psumLorem psum</span>
+        </div>
+        
+    </div>
+    <div>
+        <div class="altk"><p>BAHARATLI TARİFLER<br>
+                <span>Evde kolayca hazırlanır</span></p>
+            </div>
+        <div class="altt"><p>BAHARATLI TARİFLER<br>
+                <span>Evde kolayca hazırlanır</span></p>
+            </div>
+        <div class="alty"><p>BAHARATLI TARİFLER<br>
+                <span>Evde kolayca hazırlanır</span></p>
+            </div>
+    </div>
+</div>
+
+<div class="arkaa">
+    <div class="elli">
+        Services<br>
+        Müşteri Servisi<br>
+        Kalite Sertifikası
+    </div>
+    <div class="elli">
+        INFORMATİON<br>
+        About Us
+    </div>
+    <div class="elli">
+        CONNECT<br>
+        Facebook<br>
+        Twitter
+    </div>
+    <div class="elli">
+        LOCATION<br>
+        Turkey
+    </div>
+    
+</div>
+<div class="footer">
+        <span style="color:#ffebac;">ALL RIGHTS RESERVED © 2015 BY</span> <span style="color:red">A TASARIM STUDIO R.T.H.</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+#kutu { width:100%; height:30px; background:#fff; border:1px #000 dotted; text-align: center;} /* kutunun normal stili */
+#kutu:hover { background:#000; border:2px #fff000 solid; } /* kutunun üzerine geldiğimizde alacagı stil */
+#kutu a { color:red; text-decoration:none; font-family:tahoma; font-size:12px; } /* normal link stili */
+#kutu a:hover { color:#f0f0f0; } /* linkin üzerine gelince alacağı stil */

@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15.Tem.2015, 11:56:56
+    Author     : Kamil
+*/
+
+.menu a{
+    text-decoration: none;
+    color:#0072BC;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color:red;
+    background-color:seashell;
+}
+
+.logotedas{
+    margin-top:15px;
+    float:right;
+}
+.baslik{
+    margin-left: 25px;
+    margin-top: 38px;
+    float:left;
+    font-family: sans-serif; 
+}
+
+.baslik span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.baslik p{
+    font-size: 14px;
+}
+
+.header{
+    background-image: url(img/back.jpg);
+}
+
+.icarkaplan{
+    height:39px;
+    background-color: #F0F0F0;
+}
+
+.menu{
+    width:100%;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li{
+    
+    padding-left:15px;
+    line-height: 5px;
+    float:left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.slideshow{
+    height:218px;
+    background-image: url(img/R3_Tr.jpg);
+    overflow: hidden;
+}
+
+.icerik{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.icerik img{
+    overflow: hidden;
+}
+
+.rowarka{
+    background-image: url(img/FooterBackImg.png);
+    overflow: hidden;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 150px;
+    background-color: #E4E3E3;
+    border-top:1px gray solid;
+    border-bottom:1px gray solid;
+}
+
+.footer{
+    margin-left:auto;
+    margin-right: auto;
+}
